@@ -1,0 +1,213 @@
+{
+    "configVersion": 2,
+    "appIdentifier": "myapp.df2svn",
+    "appName": " btic",
+    "bundleName": {
+        "main": "DF2SVN",
+        "dev": "DF2SVNDev"
+    },
+    "deviceTarget": {
+        "phone": true,
+        "tablet": false
+    },
+    "orientation": {
+        "portrait": true,
+        "landscape": false
+    },
+    "permissions": [
+        {
+            "title": "Camera",
+            "name": "android.permission.CAMERA",
+            "platform": "android",
+            "required": false
+        },
+        {
+            "title": "Fine Location",
+            "name": "android.permission.ACCESS_FINE_LOCATION",
+            "platform": "android",
+            "required": false
+        },
+        {
+            "title": "Coarse Location",
+            "name": "android.permission.ACCESS_COARSE_LOCATION",
+            "platform": "android",
+            "required": false
+        },
+        {
+            "title": "Background Location",
+            "name": "android.permission.ACCESS_BACKGROUND_LOCATION",
+            "platform": "android",
+            "required": false
+        },
+        {
+            "title": "Location - When In Use Usage",
+            "name": "NSLocationWhenInUseUsageDescription",
+            "purpose": "To use that feature, the app needs access to your location.",
+            "platform": "ios",
+            "required": true
+        },
+        {
+            "title": "Location - Always And When in Use Usage",
+            "name": "NSLocationAlwaysAndWhenInUseUsageDescription",
+            "purpose": "To use that feature, the app needs access to your location.",
+            "platform": "ios",
+            "required": true
+        },
+        {
+            "title": "Camera Usage",
+            "name": "NSCameraUsageDescription",
+            "purpose": "The camera can be used to open apps by scanning a QR code.",
+            "platform": "ios",
+            "required": false
+        },
+        {
+            "title": "Internet",
+            "name": "android.permission.INTERNET",
+            "platform": "android",
+            "required": true
+        },
+        {
+            "title": "System Alert Window",
+            "name": "android.permission.SYSTEM_ALERT_WINDOW",
+            "platform": "android",
+            "required": true
+        },
+        {
+            "title": "Location - Always Usage",
+            "name": "NSLocationAlwaysUsageDescription",
+            "purpose": "To use that feature, the app needs access to your location.",
+            "platform": "ios",
+            "required": true
+        },
+        {
+            "title": "Foreground Service",
+            "name": "android.permission.FOREGROUND_SERVICE",
+            "platform": "android",
+            "required": false
+        },
+        {
+            "title": "Bluetooth - Always Usage",
+            "name": "NSBluetoothAlwaysUsageDescription",
+            "purpose": "This app may need access to your Bluetooth connection.",
+            "platform": "ios",
+            "required": false
+        },
+        {
+            "title": "Motion Usage",
+            "name": "NSMotionUsageDescription",
+            "purpose": "To use that feature, the app needs to access your motion.",
+            "platform": "ios",
+            "required": false
+        },
+        {
+            "title": "Microphone Usage",
+            "name": "NSMicrophoneUsageDescription",
+            "purpose": "To use that feature, the app needs access to your microphone.",
+            "platform": "ios",
+            "required": false
+        },
+        {
+            "title": "User Tracking Usage",
+            "name": "NSUserTrackingUsageDescription",
+            "purpose": "To use some features, the app needs to track your data.",
+            "platform": "ios",
+            "required": false
+        },
+        {
+            "title": "Bluetooth - Peripheral Usage",
+            "name": "NSBluetoothPeripheralUsageDescription",
+            "purpose": "This app may need access to your Bluetooth connection.",
+            "platform": "ios",
+            "required": false
+        },
+        {
+            "title": "Bluetooth - Scan",
+            "name": "android.permission.BLUETOOTH_SCAN",
+            "platform": "android",
+            "required": false
+        },
+        {
+            "title": "Bluetooth - Connect",
+            "name": "android.permission.BLUETOOTH_CONNECT",
+            "platform": "android",
+            "required": false
+        },
+        {
+            "title": "Battery Stats",
+            "name": "android.permission.BATTERY_STATS",
+            "platform": "android",
+            "required": false
+        },
+        {
+            "title": "Read External Storage",
+            "name": "android.permission.READ_EXTERNAL_STORAGE",
+            "platform": "android",
+            "required": false
+        },
+        {
+            "title": "Write External Storage",
+            "name": "android.permission.WRITE_EXTERNAL_STORAGE",
+            "platform": "android",
+            "required": false
+        },
+        {
+            "title": "Use Biometric",
+            "name": "android.permission.USE_BIOMETRIC",
+            "platform": "android",
+            "required": false
+        },
+        {
+            "title": "Activity Recognition",
+            "name": "android.permission.ACTIVITY_RECOGNITION",
+            "platform": "android",
+            "required": false
+        }
+    ],
+    "capabilities": {
+        "deepLink": {
+            "value": "",
+            "enabled": false,
+            "android": {
+                "webLinks": [
+                    {
+                        "host": "",
+                        "path": ""
+                    }
+                ]
+            }
+        },
+        "maps": {
+            "value": "",
+            "enabled": false
+        },
+        "mapsIos": {
+            "enabled": false
+        },
+        "pushNotifications": {
+            "enabled": true
+        },
+        "crashlytics": {
+            "enabled": false
+        },
+        "firebaseAndroid": {
+            "enabled": true
+        },
+        "firebaseIos": {
+            "enabled": true
+        },
+        "localNotifications": {
+            "enabled": true
+        },
+        "appCenterOTA": {
+            "enabled": false
+        },
+        "nativeOTA": {
+            "enabled": true
+        }
+    },
+    "appVersion": "7.0.0",
+    "buildNumber": 7,
+    "runtimeUrl": "https://boubyantakaful.com",
+    "hermesEnabled": false,
+    "cookieEncryptionEnabled": false
+}

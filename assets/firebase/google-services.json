@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "811938580814",
+    "project_id": "df2-svn",
+    "storage_bucket": "df2-svn.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:811938580814:android:d7f1cbfea782c8b8a0b61f",
+        "android_client_info": {
+          "package_name": "btic"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB9PjOWmc8kMZHhm3188VgiLFNB6ME_Pu4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:811938580814:android:14c7473898b01897a0b61f",
+        "android_client_info": {
+          "package_name": "myapp.df2svn"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB9PjOWmc8kMZHhm3188VgiLFNB6ME_Pu4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
